@@ -43,8 +43,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/biriyani_IV"
         app:layout_constraintBottom_toBottomOf="@id/biriyani_IV"
-        android:layout_marginRight="25dp"
+        android:layout_marginRight="20dp"
         />
+
 
     <TextView
         android:id="@+id/tv_Name"
@@ -62,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="Biriyani"
+        android:text="ice"
         android:textColor="@color/purple_500"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
@@ -87,13 +88,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="250"
+        android:text="2500"
         android:layout_marginTop="10dp"
         android:textColor="@color/purple_500"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/tv_Name_Value"
         app:layout_constraintStart_toEndOf="@id/tv_Price"
         android:layout_marginStart="20dp"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="tv_Name_Value,tv_Price_Value"
+        app:barrierDirection="end"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choose wisely"
+        android:textColor="@color/purple_500"
+        app:layout_constraintTop_toTopOf="@id/tv_Name_Value"
+        app:layout_constraintBottom_toBottomOf="@id/tv_Price_Value"
+        app:layout_constraintStart_toEndOf="@id/barrier"/>
 
     <TextView
         android:id="@+id/tv_Description"
