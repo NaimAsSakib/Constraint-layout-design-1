@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="ice"
+        android:text="HB"
         android:textColor="@color/purple_500"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
@@ -88,7 +88,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="2500"
+        android:text="25000"
         android:layout_marginTop="10dp"
         android:textColor="@color/purple_500"
         android:textStyle="bold"
@@ -108,7 +108,7 @@
         android:layout_height="wrap_content"
         android:text="choose wisely"
         android:textColor="@color/purple_500"
-        app:layout_constraintTop_toTopOf="@id/tv_Name_Value"
+      app:layout_constraintTop_toTopOf="@id/tv_Name_Value"
         app:layout_constraintBottom_toBottomOf="@id/tv_Price_Value"
         app:layout_constraintStart_toEndOf="@id/barrier"/>
 
